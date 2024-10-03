@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "773512884357",
+    "project_id": "eaecontrol",
+    "storage_bucket": "eaecontrol.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773512884357:android:51a9fa90522f2d63c679ec",
+        "android_client_info": {
+          "package_name": "com.example.eaecontrol"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIbyu9enDMHhLhn3sR2NFDb3s4o54mIrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

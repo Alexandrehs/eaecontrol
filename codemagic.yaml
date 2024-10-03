@@ -1,0 +1,8 @@
+environment:
+  groups:
+    -firebase_credentials
+
+scripts:
+  - name: Publish to Firebase Hosting
+    script: | 
+      firebase deploy --token "1//0hqpWLB4VMq3eCgYIARAAGBESNwF-L9IrA0Z6Uv98TRajdRyifgSiecwUAZI2XEQaYrZ-sRptszwbiXRbQDxe5WvYg34RD6JP-6I"

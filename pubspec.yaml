@@ -39,6 +39,7 @@ dependencies:
   sqflite: ^2.3.2
   path: ^1.8.3
   firebase_core: ^2.24.2
+  flutter_native_splash: ^2.3.0
 
 dev_dependencies:
   flutter_test:
@@ -63,9 +64,17 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/logo.png
+
+flutter_native_splash:
+  color: "#293D4C"
+  background_image: "assets/images/logo.png"
+  # The android, ios and web parameters can be used to disable generating a splash screen on a given
+  # platform.
+  android: true
+  ios: true
+  #web: false
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

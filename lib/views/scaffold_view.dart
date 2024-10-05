@@ -3,6 +3,7 @@ import 'package:eaecontrol/views/account_view.dart';
 import 'package:eaecontrol/views/home_view.dart';
 import 'package:eaecontrol/views/resume_view.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 class ScaffoldView extends StatefulWidget {
   const ScaffoldView({super.key});
@@ -17,6 +18,12 @@ class _ScaffoldViewState extends State<ScaffoldView> {
     const ResumeView(),
     const AccountView()
   ];
+
+  @override
+  void initState() {
+    FlutterNativeSplash.remove();
+    super.initState();
+  }
 
   int _viewIndex = 0;
 

@@ -113,8 +113,10 @@ class _ResumeViewState extends State<ResumeView> {
                           ),
                           trailing: Text(
                             "R\$ ${Formatters.formatterCurrency(state.resumes[index].result)}",
-                            style: const TextStyle(
-                              color: AppColors.PRIMARY_COLOR,
+                            style: TextStyle(
+                              color: state.resumes[index].result > 0
+                                  ? AppColors.SUCCESS_COLOR
+                                  : AppColors.ERROR_CANCEL_COLOR,
                               fontSize: 24,
                             ),
                           ),
